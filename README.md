@@ -1,7 +1,7 @@
  wpa_supplicant and hostap 
-
+--------------------------
  add: Send wifi_probe data and connected info via mqtt.
-
+--------------------------
 hostapd.conf:  
 interface=wlan1  
 driver=nl80211  
@@ -22,10 +22,6 @@ mqtt_broker=al.wjjun.com
 mqtt_port=9583  
 mqtt_username=haha  
 mqtt_password=hehe  
-
-
-wpa_supplicant and hostapd
---------------------------
 
 Copyright (c) 2002-2015, Jouni Malinen <j@w1.fi> and contributors
 All Rights Reserved.
