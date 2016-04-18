@@ -2,26 +2,26 @@
 
 ### add: Send wifi_probe data and connected info via mqtt.
 ` 
-hostapd.conf:
-	interface=wlan1
-	driver=nl80211
-	ssid=ssa
-	hw_mode=g
-	channel=11
-	dtim_period=1
-	rts_threshold=2347
-	fragm_threshold=2346
-	auth_algs=3
-	wpa=1
-	wpa_passphrase=12345678
-	wpa_key_mgmt=WPA-PSK
-	wpa_pairwise=TKIP CCMP
-	rsn_pairwise=CCMP
-	use_mqtt=1
-	mqtt_broker=al.wjjun.com
-	mqtt_port=9583    
-	mqtt_username=haha
-	mqtt_password=hehe
+hostapd.conf:  
+	interface=wlan1  
+	driver=nl80211  
+	ssid=ssa  
+	hw_mode=g  
+	channel=11  
+	dtim_period=1  
+	rts_threshold=2347  
+	fragm_threshold=2346  
+	auth_algs=3  
+	wpa=1  
+	wpa_passphrase=12345678  
+	wpa_key_mgmt=WPA-PSK  
+	wpa_pairwise=TKIP CCMP  
+	rsn_pairwise=CCMP  
+	use_mqtt=1  
+	mqtt_broker=al.wjjun.com  
+	mqtt_port=9583  
+	mqtt_username=haha  
+	mqtt_password=hehe  
 `
 
 wpa_supplicant and hostapd
